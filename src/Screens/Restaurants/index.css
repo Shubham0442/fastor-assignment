@@ -1,0 +1,104 @@
+.card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.rest-container {
+  width: 375px;
+  height: 715px;
+  margin: auto;
+  background-color: #fff;
+  padding-right: 24px;
+  padding-left: 24px;
+  font-family: Urbanist;
+  height: 750px;
+}
+
+.rest-container > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e232c;
+  margin-bottom: 40px;
+}
+
+.card > img {
+  width: 122px;
+  height: 118px;
+  flex-shrink: 0;
+  border-radius: 14px;
+}
+
+.card > div {
+  width: calc(100% - 122px);
+  text-align: left;
+  padding-left: 10px;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 650;
+  color: #1e232c;
+}
+
+.main-container {
+  height: 695px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 1px !important;
+}
+
+.name + p {
+  font-size: 12.5px;
+  color: #8391a1;
+  font-weight: 600;
+}
+
+.location {
+  font-size: 12.5px;
+  color: #8391a1;
+  font-weight: 600;
+}
+
+.offers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ff6d6a;
+  gap: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.offers > p {
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.inner-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-box > .rating > div,
+.inner-box > .cost > div {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #1e232c;
+}
+
+.rate-cost {
+  font-size: 12.5px;
+  color: #8391a1 !important;
+  font-weight: 600;
+}

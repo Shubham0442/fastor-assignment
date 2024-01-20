@@ -1,0 +1,40 @@
+.otp-container {
+  width: 375px;
+  height: 740px;
+  margin: auto;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 218px;
+  background-color: #fff;
+}
+
+.otp-field {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 49px;
+}
+
+.mobile-field > input {
+  margin-bottom: 49px;
+}
+
+.resend {
+  color: #1e232c;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+
+.resend > a {
+  color: #5574c6;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}

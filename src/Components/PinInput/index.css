@@ -1,0 +1,36 @@
+.input-box {
+  width: 49px;
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--Border, #e8ecf4);
+  background: #f7f8f9;
+  text-align: center;
+}
+
+.fields-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 49px;
+}
+
+.pininput-container {
+  text-align: left;
+}
+
+.pininput-container label {
+  color: #1e232c;
+  font-family: Urbanist;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.pininput-container > p {
+  color: #8391a1;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}

@@ -1,0 +1,15 @@
+.button-container {
+  width: 100%;
+  height: auto;
+}
+
+.button-container > button {
+  border-radius: 8px;
+  background: #ff6d6a;
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  border-color: #ff6d6a;
+}

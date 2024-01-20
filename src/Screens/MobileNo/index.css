@@ -1,0 +1,19 @@
+.mobile-container {
+  width: 375px;
+  height: 740px;
+  margin: auto;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 218px;
+  background-color: #fff;
+}
+
+.mobile-field {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 49px;
+}
+
+.mobile-field > input {
+  margin-bottom: 49px;
+}
